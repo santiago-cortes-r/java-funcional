@@ -23,7 +23,7 @@ public final class ImmutablePerson {
     public ImmutablePerson(String firstName, String lastName, List<String> emails) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.emails = emails;
+        this.emails = new LinkedList<>(emails);
     }
 
     public String getFirstName() {

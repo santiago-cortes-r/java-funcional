@@ -15,6 +15,7 @@ public class Outsider {
 
         System.out.println(sier);
         badIntentionedMethod(sier);
+        emails.add("mnkanm");
         System.out.println(sier);
     }
 

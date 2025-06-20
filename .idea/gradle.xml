@@ -10,9 +10,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/modules" />
-            <option value="$PROJECT_DIR$/modules/src" />
-            <option value="$PROJECT_DIR$/modules/src/main" />
-            <option value="$PROJECT_DIR$/modules/src/main/java" />
           </set>
         </option>
       </GradleProjectSettings>
