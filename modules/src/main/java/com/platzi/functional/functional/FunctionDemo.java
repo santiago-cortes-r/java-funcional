@@ -6,6 +6,7 @@ import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.function.Function;
+import java.util.function.Predicate;
 
 public class FunctionDemo {
     /**
@@ -321,6 +322,26 @@ public class FunctionDemo {
         System.out.println(transformText("Claro que si roncas")); //CLAYOoO QUE TI YOoONCAS
     }
 
+    // Predicate<T> es una interfaz funcional del paquete java.util.function
+    // que representa
+    // una función booleana (retorna true o false) que toma un argumento de tipo T.
+    //  Se usa comúnmente para filtrar elementos en colecciones, validar
+    //  ondiciones o combinarlos con streams.
+
+    // Predicate que evalúa si un String está completamente en mayúsculas
+    public static Predicate<String> isUpperCase() {
+        return s -> s != null && s.equals(s.toUpperCase());
+    }
+
+    private static void runPredicate() {
+
+        Predicate<String> predicate = isUpperCase();
+
+        System.out.println(predicate.test("HELLO")); // true
+        System.out.println(predicate.test("Hello")); // false
+        System.out.println(predicate.test("hello")); // false
+
+    }
     public static void main(String[] args) {
         runTransform();
     }
