@@ -5,8 +5,8 @@ import java.util.function.Supplier;
 
 public class CLIArgumentsUtil {
     static void showHelp(CLIArguments cliArguements){
-        Consumer<CLIArguments> consumerHelper = cliArguments -> {
-            if (cliArguments.isHelp()) {
+        Consumer<CLIArguments> consumerHelper = cliArguments1 -> {
+            if (cliArguments1.isHelp()) {
                 System.out.println("manual solicitado");
 
             }
