@@ -1,9 +1,9 @@
-package chaining;
+package com.platzi.functional.chaining;
 
 
-import chaining.builder.BuilderNoChaining;
-import chaining.builder.BuilderWithChaining;
-import chaining.data.Account;
+import com.platzi.functional.chaining.builder.BuilderNoChaining;
+import com.platzi.functional.chaining.builder.BuilderWithChaining;
+import com.platzi.functional.chaining.data.Account;
 
 import java.util.function.Function;
 

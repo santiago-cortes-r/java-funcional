@@ -1,4 +1,4 @@
-package chaining.data;
+package com.platzi.functional.chaining.data;
 
 
 public class Phone {

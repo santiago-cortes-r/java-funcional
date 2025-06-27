@@ -1,8 +1,8 @@
-package chaining.builder;
+package com.platzi.functional.chaining.builder;
 
 
-import chaining.data.Account;
-import chaining.data.Phone;
+import com.platzi.functional.chaining.data.Account;
+import com.platzi.functional.chaining.data.Phone;
 
 public class BuilderWithChaining {
     private String id;
